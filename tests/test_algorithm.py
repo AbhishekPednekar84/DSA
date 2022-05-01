@@ -39,14 +39,18 @@ def test_insertion_sort():
     assert insertion_sort(sorted_list_numbers) == sorted_list_numbers
     assert insertion_sort(sorted_list_words) == sorted_list_words
 
+
 def test_linear_search_positive():
     assert linear_search(sorted_list_words, "Suriname") == 4
+
 
 def test_linear_search_negative():
     assert linear_search(sorted_list_numbers, 2) is None
 
+
 def test_binary_search_positive():
     assert binary_search(sorted_list_words, "Suriname") == 4
+
 
 def test_binary_search_negative():
     assert binary_search(sorted_list_numbers, 2) is None

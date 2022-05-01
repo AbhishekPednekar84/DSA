@@ -1,5 +1,6 @@
 from typing import List, Any
 
+
 def binary_search(lst: List, search_value: Any) -> Any:
     """Given a sorted list, find the middle element and compare it with the
         search value. If it matches, return the index, or search to the left
@@ -16,10 +17,10 @@ def binary_search(lst: List, search_value: Any) -> Any:
     Returns
     -------
     Any
-        Index of the search value (if present)  
+        Index of the search value (if present)
     """
 
-    low, high = 0, len(lst) -1
+    low, high = 0, len(lst) - 1
 
     while low <= high:
         mid = int((low + high) / 2)

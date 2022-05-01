@@ -1,5 +1,6 @@
 from typing import List, Any
 
+
 def linear_search(lst: List, search_value: Any) -> int:
     # sourcery skip: use-next
     """Iterate over the list sequentially and return the search value if found
