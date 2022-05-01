@@ -8,3 +8,4 @@
 2. Bubble Sort
 3. Insertion Sort
 4. Linear Search
+5. Binary Search
